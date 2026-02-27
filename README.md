@@ -6,7 +6,7 @@ A VS Code extension that brings Azure NetApp Files (ANF) storage management dire
 
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/items?itemName=netapp.anf-vscode-extension)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.2.1-orange)](package.json)
+[![Version](https://img.shields.io/badge/Version-1.2.2-orange)](package.json)
 
 
 **The Solution:** AI-powered storage management integrated directly into VS Code with natural language commands and intelligent recommendations.
