@@ -6,7 +6,7 @@ A VS Code extension that brings Azure NetApp Files (ANF) storage management dire
 
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/items?itemName=netapp.anf-vscode-extension)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.2.2-orange)](package.json)
+[![Version](https://img.shields.io/badge/Version-1.3.0-orange)](package.json)
 
 
 **The Solution:** AI-powered storage management integrated directly into VS Code with natural language commands and intelligent recommendations.
@@ -51,6 +51,11 @@ git clone https://github.com/NetApp/anf-vscode-extension.git
 cd anf-vscode-extension
 npm install
 npm run compile
+```
+
+### Running Tests
+```bash
+npm run test
 ```
 
 ## Quick Start
@@ -224,6 +229,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Community:** [Azure Community Forums](https://docs.microsoft.com/en-us/answers/topics/azure-netapp-files.html)
 
 ## 🎉 New Features
+
+### Version 1.3.0
+- **Containerized Application Deployment**
+  - We’ve added a **templated deployment command** for containerized applications using **NetApp Trident**.
+  - New command: “Create AKS + ANF Integration Template”
+    - Generate templates in **ARM JSON** or **Terraform**.
+- **Feedback Form**
+  - We’d love to hear about your experience with the extension! A link to our feedback form is now available under **Help & Feedback**.
+- **Auto-Tiering Detection**
+  - The extension can now detect whether **auto-tiering** is enabled on volumes and provide recommendations—along with **estimated cost savings**.
 
 ### Version 1.2.0
 - **Agentic Framework Support**
